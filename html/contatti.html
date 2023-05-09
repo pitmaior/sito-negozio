@@ -1,0 +1,46 @@
+<html>
+    <title>
+        le bontà alimentari
+    </title>
+    <link href="file.css" rel="stylesheet"> 
+    <head>
+      <h1 class="title">
+       <center> Le Bonta Alimentari </center>    
+  </h1>
+    </head>
+
+    <body>
+      <div class="navbar">
+        <a class="item" href="le_bonta_alimentari.html">HOME</a> 
+        <a class="item" href="prodotti.html">PRODOTTI</a> 
+        <a class="item" href="shop.html">SHOP</a>
+        <a class="item" href="contatti.html">CONTATTI</a>
+      
+    </div>
+    <div id="contenitore"class="registrazioni">
+      <from method="post" action="information.php"name="formcommenti" id ="commenti">
+        <fieldset>
+          <legend>Inserisci i tuoi dati</legend>
+          <label for="name ">Nome <span>(obbligatorio)</span></label>
+          <input type="text"name="Nome"id="Nome"
+          placeholder="cumm t chiam"required>
+          <label for="Cognome ">Cognome</label>
+          <input type="text"Cognome="Cognome"id="Cognome" placeholder="e c razz si">
+          <label for="Email">Email</label>
+          <input type="texr"Email="Email" id="Email"placeholder="inserisci la tua email">
+        </fieldset>
+        <fieldset>
+          <div class="recensioni">
+          <legend> <center>Recenioni</center></legend>
+          <label for ="oggetto">Oggetto</label><span> (obbligatorio)</span></label>
+          <input type="text" name="Oggetto"id="oggetto"placeholder="scrivi l'oggetto" required>
+          <br><label for="Messaggio">Messaggio</label></div><br>
+          <textarea cols="40" rows="20 "name="Messaggio"id ="messaggio"placeholder="Il tuo messaggio"></textarea>
+        </fieldset>
+        <button type="reset"name="reset"class="bottone">Annulla</button>
+        <button type="subtim"name="invia"class="bottone">invia</button>
+      </from>
+    </div>
+    </div>
+  
+    </body></html>
